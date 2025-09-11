@@ -22,5 +22,26 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eee;
+  background: #000000;
+}
+
+/* SOLUTION */
+
+.title {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 30px;
+  gap: 40px;
+  text-align: center;
+}
+
+.info {
+  max-width: 250px;
 }
